@@ -1,0 +1,3 @@
+﻿  Źródło.cpp
+c:\users\maxgr\desktop\vi\algorytmika\1\consoleapplication2\consoleapplication2\źródło.cpp(15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  ConsoleApplication2.vcxproj -> C:\Users\maxgr\Desktop\VI\Algorytmika\1\ConsoleApplication2\Debug\ConsoleApplication2.exe
