@@ -1,0 +1,1000 @@
+
+
+*******************************************************************************
+Wed Apr 03 15:06:09 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x^b
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Apr 03 15:08:07 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*(x**b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.6301205900e+08  0.00e+00 8.85e+01  1.000000e+00  1.000000e+00
+ 157 4.6501526683e+04 -8.91e-05 8.85e-04  8.266645e+01  9.867185e-01
+
+After 157 iterations the fit converged.
+final sum of squares of residuals : 46501.5
+rel. change during last iteration : -8.90753e-010
+
+degrees of freedom    (FIT_NDF)                        : 55
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 29.0772
+variance of residuals (reduced chisquare) = WSSR/ndf   : 845.482
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 82.6664          +/- 1.373        (1.661%)
+b               = 0.986719         +/- 0.004466     (0.4526%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Wed Apr 03 15:09:52 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*(x**b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   b            
+   0 4.6501526683e+04  0.00e+00 9.38e+03  9.867185e-01
+   1 4.6501526683e+04  0.00e+00 9.38e+07  9.867185e-01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 46501.5
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 56
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 28.8164
+variance of residuals (reduced chisquare) = WSSR/ndf   : 830.384
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+b               = 0.986719         +/- 0.0004014    (0.04068%)
+
+
+*******************************************************************************
+Wed Apr 03 15:13:38 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=x**a
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.1365565189e+289  0.00e+00 1.76e+146  8.266645e+01
+   1 2.1682639427e+288 -4.24e+05 1.76e+145  8.246062e+01
+
+The maximum lambda = 1.000000e+020 was exceeded. Fit stopped.
+final sum of squares of residuals : 2.16826e+288
+rel. change during last iteration : -4.24178
+
+degrees of freedom    (FIT_NDF)                        : 56
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.96771e+143
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.8719e+286
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 82.4606          +/- 0.028        (0.03396%)
+
+
+*******************************************************************************
+Wed Apr 03 15:14:19 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=b*x**a+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.1110509115e+288  0.00e+00 4.37e+145  8.246062e+01  9.867185e-01  1.000000e+00
+   1 3.9476124861e+287 -4.35e+05 4.37e+144  8.225231e+01  9.867122e-01  1.000000e+00
+
+The maximum lambda = 1.000000e+020 was exceeded. Fit stopped.
+final sum of squares of residuals : 3.94761e+287
+rel. change during last iteration : -4.34766
+
+degrees of freedom    (FIT_NDF)                        : 54
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.55008e+142
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.31039e+285
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 82.2523          +/- 22.76        (27.67%)
+b               = 0.986712         +/- 107.1        (1.086e+004%)
+c               = 1                +/- 6.046e+142   (6.046e+144%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c               0.000  0.000  1.000 
+
+
+*******************************************************************************
+Wed Apr 03 15:14:43 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=b*(x**a)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   b             a             c            
+   0 3.9476124861e+287  0.00e+00 1.89e+145  9.867122e-01  8.225231e+01  1.000000e+00
+   1 7.3764596639e+286 -4.35e+05 1.89e+144  9.867058e-01  8.204391e+01  1.000000e+00
+
+The maximum lambda = 1.000000e+020 was exceeded. Fit stopped.
+final sum of squares of residuals : 7.37646e+286
+rel. change during last iteration : -4.35164
+
+degrees of freedom    (FIT_NDF)                        : 54
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.69596e+142
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.36601e+285
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+b               = 0.986706         +/- 106.7        (1.082e+004%)
+a               = 82.0439          +/- 22.69        (27.65%)
+c               = 1                +/- 2.613e+142   (2.613e+144%)
+
+correlation matrix of the fit parameters:
+                b      a      c      
+b               1.000 
+a              -1.000  1.000 
+c               0.000  0.000  1.000 
+
+
+*******************************************************************************
+Wed Apr 03 15:15:12 2019
+
+
+FIT:    data read from "times.txt" using 2:1
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=b*(x**a)+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   b             a             c            
+   0 nan                nan       inf        9.867058e-01  8.204391e+01  1.000000e+00
+
+Current data point
+=========================
+#               = 1 out of 57
+x               = nan            
+z               = 0              
+
+Current set of parameters
+=========================
+b               = nan            
+a               = nan            
+c               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed Apr 03 15:15:22 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=b*(x**a)+c
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 57
+x               = nan            
+z               = 0              
+
+Current set of parameters
+=========================
+b               = nan            
+a               = nan            
+c               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed Apr 03 15:15:28 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=b*(x**a)+c
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 57
+x               = nan            
+z               = 0              
+
+Current set of parameters
+=========================
+b               = nan            
+a               = nan            
+c               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed Apr 03 15:15:35 2019
+
+
+FIT:    data read from "times.txt" using 2:1
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=b*(x**a)+c
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 57
+x               = nan            
+z               = 0              
+
+Current set of parameters
+=========================
+b               = nan            
+a               = nan            
+c               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed Apr 03 15:15:39 2019
+
+
+FIT:    data read from "times.txt" using 2:1
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=b*(x**a)+c
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 57
+x               = nan            
+z               = 0              
+
+Current set of parameters
+=========================
+b               = nan            
+a               = nan            
+c               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed Apr 03 15:15:49 2019
+
+
+FIT:    data read from "times.txt" using 2:1
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=b*(x**a)+c
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 57
+x               = nan            
+z               = 0              
+
+Current set of parameters
+=========================
+b               = nan            
+a               = nan            
+c               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed Apr 03 15:18:05 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**b+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.6276355400e+08  0.00e+00 7.23e+01  1.000000e+00  1.000000e+00  1.000000e+00
+ 171 4.6470539983e+04 -4.48e-03 7.23e-04  8.317187e+01  9.853254e-01 -2.793637e+00
+
+After 171 iterations the fit converged.
+final sum of squares of residuals : 46470.5
+rel. change during last iteration : -4.4797e-008
+
+degrees of freedom    (FIT_NDF)                        : 54
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 29.3354
+variance of residuals (reduced chisquare) = WSSR/ndf   : 860.566
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 83.1719          +/- 3.002        (3.609%)
+b               = 0.985325         +/- 0.008566     (0.8694%)
+c               = -2.79364         +/- 14.71        (526.7%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.996  1.000 
+c              -0.886  0.851  1.000 
+
+
+*******************************************************************************
+Wed Apr 03 15:18:37 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.6915420461e+04  0.00e+00 5.61e+03  8.317187e+01  9.853254e-01 -2.793637e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Apr 03 15:19:07 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**b
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'a' is zero.
+Warning: Initial value of parameter 'b' is zero.
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.7241446500e+08  0.00e+00 5.72e-01  1.000000e-30  1.000000e-30 -2.796431e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Apr 03 15:20:07 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 57
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.6301205900e+08  0.00e+00 8.85e+01  1.000000e+00  1.000000e+00
+ 157 4.6501526683e+04 -8.91e-05 8.85e-04  8.266645e+01  9.867185e-01
+
+After 157 iterations the fit converged.
+final sum of squares of residuals : 46501.5
+rel. change during last iteration : -8.90753e-010
+
+degrees of freedom    (FIT_NDF)                        : 55
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 29.0772
+variance of residuals (reduced chisquare) = WSSR/ndf   : 845.482
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 82.6664          +/- 1.373        (1.661%)
+b               = 0.986719         +/- 0.004466     (0.4526%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Wed Apr 03 15:21:20 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 34
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.0611549744e+05  0.00e+00 3.56e+03  8.266645e+01  9.867185e-01
+   4 3.6034079629e+04 -6.88e-01 3.56e-01  9.058041e+01  9.813643e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 36034.1
+rel. change during last iteration : -6.88039e-006
+
+degrees of freedom    (FIT_NDF)                        : 32
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 33.5569
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1126.06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 90.5804          +/- 3.005        (3.318%)
+b               = 0.981364         +/- 0.01038      (1.058%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.994  1.000 
+
+
+*******************************************************************************
+Wed Apr 03 15:31:47 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 20
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.9702963676e+11  0.00e+00 1.89e+03  9.058041e+01  9.813643e-01
+  21 3.8136136046e+09 -1.17e-03 1.89e-01  8.684126e+02  1.988632e+00
+
+After 21 iterations the fit converged.
+final sum of squares of residuals : 3.81361e+009
+rel. change during last iteration : -1.16597e-008
+
+degrees of freedom    (FIT_NDF)                        : 18
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 14555.7
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.11867e+008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 868.413          +/- 276.8        (31.87%)
+b               = 1.98863          +/- 0.1145       (5.758%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.997  1.000 
+
+
+*******************************************************************************
+Wed Apr 03 15:33:49 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 24
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.5015760658e+11  0.00e+00 8.69e+05  8.684126e+02  1.988632e+00
+  11 4.3601472523e+09 -9.90e-03 8.69e+00  1.604800e+03  1.620133e+00
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 4.36015e+009
+rel. change during last iteration : -9.904e-008
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 14077.9
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.98189e+008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1604.8           +/- 446.3        (27.81%)
+b               = 1.62013          +/- 0.09469      (5.844%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.997  1.000 
+
+
+*******************************************************************************
+Wed Apr 03 15:33:52 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 26
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.9887104780e+09  0.00e+00 5.17e+05  1.604800e+03  1.620133e+00
+   5 4.8668872620e+09 -9.93e-05 5.17e+03  1.762780e+03  1.584822e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 4.86689e+009
+rel. change during last iteration : -9.9319e-010
+
+degrees of freedom    (FIT_NDF)                        : 24
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 14240.3
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.02787e+008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1762.78          +/- 426          (24.16%)
+b               = 1.58482          +/- 0.08014      (5.057%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.997  1.000 
+
+
+*******************************************************************************
+Wed Apr 03 15:33:59 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 27
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.0605646124e+09  0.00e+00 5.38e+05  1.762780e+03  1.584822e+00
+   5 5.0090971683e+09 -3.31e-04 5.38e+04  1.883661e+03  1.560764e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 5.0091e+009
+rel. change during last iteration : -3.31281e-009
+
+degrees of freedom    (FIT_NDF)                        : 25
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 14155
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.00364e+008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1883.66          +/- 420.4        (22.32%)
+b               = 1.56076          +/- 0.07315      (4.687%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.997  1.000 
+
+
+*******************************************************************************
+Thu Apr 04 09:25:13 2019
+
+
+FIT:    data read from "times.txt"
+        format = z
+        #datapoints = 27
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.3666393307e+11  0.00e+00 3.35e+01  1.000000e+00  1.000000e+00
+
+Current data point
+=========================
+#               = 3 out of 27
+x               = 664.988        
+z               = 1548           
+
+Current set of parameters
+=========================
+a               = 664.988        
+b               = 3113.07        
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Apr 04 09:27:12 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 27
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)+c
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu Apr 04 09:27:16 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 27
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)+c
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 3 out of 27
+x               = 664.988        
+z               = 1548           
+
+Current set of parameters
+=========================
+a               = 664.988        
+b               = 3113.07        
+c               = 1              
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Apr 04 09:28:32 2019
+
+
+FIT:    data read from 'times.txt'using 1:2
+        format = x:z
+        #datapoints = 27
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = x**d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   d            
+   0 6.3666393307e+11  0.00e+00 4.50e+01  1.000000e+00
+  16 9.6298869460e+10 -1.18e-03 4.50e+00  3.951774e+00
+
+After 16 iterations the fit converged.
+final sum of squares of residuals : 9.62989e+010
+rel. change during last iteration : -1.18495e-008
+
+degrees of freedom    (FIT_NDF)                        : 26
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 60858.9
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.7038e+009
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+d               = 3.95177          +/- 0.02635      (0.6669%)
+
+
+*******************************************************************************
+Thu Apr 04 09:31:26 2019
+
+
+FIT:    data read from 'times.txt' using 1:2
+        format = x:z
+        #datapoints = 27
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.3666393307e+11  0.00e+00 3.35e+01  1.000000e+00  1.000000e+00
+
+Current data point
+=========================
+#               = 3 out of 27
+x               = 664.988        
+z               = 1548           
+
+Current set of parameters
+=========================
+a               = 664.988        
+b               = 3113.07        
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Apr 04 09:31:49 2019
+
+
+FIT:    data read from 'times.txt' using 1:2
+        format = x:z
+        #datapoints = 27
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 3 out of 27
+x               = 664.988        
+z               = 1548           
+
+Current set of parameters
+=========================
+a               = 664.988        
+b               = 3113.07        
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Apr 04 09:31:52 2019
+
+
+FIT:    data read from 'times.txt' using 1:2
+        format = x:z
+        #datapoints = 27
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 3 out of 27
+x               = 3113.07        
+z               = 1548           
+
+Current set of parameters
+=========================
+b               = 3113.07        
+a               = 664.988        
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Apr 04 09:32:43 2019
+
+
+FIT:    data read from 'times.txt' using 1:2
+        format = x:z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 3 out of 22
+x               = 3113.07        
+z               = 1517           
+
+Current set of parameters
+=========================
+b               = 3113.07        
+a               = 664.988        
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Apr 04 09:33:02 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 27
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 3 out of 27
+x               = 3113.07        
+z               = 1517           
+
+Current set of parameters
+=========================
+b               = 3113.07        
+a               = 664.988        
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Apr 04 09:33:16 2019
+
+
+FIT:    data read from "times.txt" using 1:2
+        format = x:z
+        #datapoints = 30
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)+c
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 3 out of 30
+x               = 3113.07        
+z               = 1517           
+
+Current set of parameters
+=========================
+b               = 3113.07        
+a               = 664.988        
+c               = 1              
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Apr 04 09:33:30 2019
+
+
+FIT:    data read from "times.txt" using 2:1
+        format = x:z
+        #datapoints = 32
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)+c
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 2 out of 32
+x               = 3113.07        
+z               = 1              
+
+Current set of parameters
+=========================
+b               = 3113.07        
+a               = 664.988        
+c               = 1              
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Apr 04 09:33:42 2019
+
+
+FIT:    data read from "times.txt" using 2:1
+        format = x:z
+        #datapoints = 33
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*(x**b)+c
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 2 out of 33
+x               = 3113.07        
+z               = 1              
+
+Current set of parameters
+=========================
+b               = 3113.07        
+a               = 664.988        
+c               = 1              
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Thu Apr 04 09:37:12 2019
+
+
+FIT:    data read from 'times.dat' using 1:2
+        format = x:z
+        #datapoints = 31
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=i*x**j
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   i             j            
+   0 1.1176784786e+12  0.00e+00 4.03e+01  1.000000e+00  1.000000e+00
+
+Current data point
+=========================
+#               = 3 out of 31
+x               = 654.099        
+z               = 1539           
+
+Current set of parameters
+=========================
+i               = 654.099        
+j               = 3222.17        
+
+BREAK: Function evaluation yields NaN ("not a number")
